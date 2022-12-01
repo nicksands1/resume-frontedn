@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     steps:
-      - uses: actions/checkout@master
-      - uses: nicksands1/resume-frontedn@master
+      - uses: actions/checkout@main
+      - uses: nicksands1/resume-frontedn@main
         with:
           aws-access-key-id: ${{ secrets.ACCESS_KEY }}
           aws-secret-access-key: ${{ secrets.SECRET_KEY }}
